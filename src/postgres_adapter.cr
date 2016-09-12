@@ -1,6 +1,6 @@
 require "pg"
 
-require "active_record"
+require "../../../../shards/active_record.cr/src/active_record"
 require "active_record/adapter"
 require "active_record/sql/query_generator"
 
@@ -71,7 +71,7 @@ module PostgresAdapter
         value.to_utc
       else
         value
-      end as PG::PGValue
+      end.as(PG::PGValue)
     end
 
     def get(id)
