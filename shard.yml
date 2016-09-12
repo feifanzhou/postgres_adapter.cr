@@ -6,8 +6,8 @@ authors:
 license: MIT
 dependencies: 
   active_record: 
-    github: waterlink/active_record.cr
-    version: ~> 1.0
+    github: feifanzhou/active_record.cr
+    branch: master
   pg: 
     github: will/crystal-pg
     version: ~> 0.8
