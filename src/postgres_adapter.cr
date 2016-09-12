@@ -1,6 +1,6 @@
 require "pg"
 
-require "../../../../shards/active_record.cr/src/active_record"
+require "active_record"
 require "active_record/adapter"
 require "active_record/sql/query_generator"
 
